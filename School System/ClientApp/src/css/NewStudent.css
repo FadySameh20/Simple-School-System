@@ -1,0 +1,23 @@
+﻿.scrollable {
+    overflow-y: auto;
+    height: 440px;
+}
+
+.btn {
+    background-color: rgba(240,200,0,50);
+    margin: 8px 20px;
+    height: 45px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 850px) {
+    .btn {
+        margin: 6px 20px;
+        height: 35px;
+    }
+}
+
+.btn:hover {
+    background-color: rgba(255,220,0,50);
+}

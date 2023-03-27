@@ -1,0 +1,53 @@
+﻿.title {
+    font-weight: bold;
+}
+
+.card {
+    background-color: lightgreen;
+    margin: 15px auto 0px auto;
+    padding: 10px;
+    width: 35%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.5);
+}
+
+@media screen and (max-width: 850px) {
+    .card {
+        width: 60%; /* The width is 100%, when the viewport is 850px or smaller */
+        margin: 10px auto 0px auto;
+    }
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.student-input {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    margin: 10px 5px 5px 5px;
+}
+
+input, select {
+    height: 25px;
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: rgb(204,204,204);
+    padding: 2px;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.remove-btn {
+    margin: auto 10px;
+}

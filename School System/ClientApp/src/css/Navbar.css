@@ -1,0 +1,33 @@
+﻿.navbar {
+    padding: 20px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    max-width: 45%;
+    margin: 25px auto 0px auto;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+@media screen and (max-width: 850px) {
+    .navbar {
+        max-width: 65%;
+    }
+}
+
+.navbar h1 {
+    color: white;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+.navbar a {
+    color: white;
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+}
+
+.navbar .active {
+    color: rgba(255,180,0,50);
+}
